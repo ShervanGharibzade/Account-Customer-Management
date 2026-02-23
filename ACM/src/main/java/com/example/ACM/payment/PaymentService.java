@@ -1,10 +1,8 @@
-package com.example.ACM.service;
+package com.example.ACM.payment;
 
 import com.example.ACM.auditLog.AuditLogService;
 import com.example.ACM.enums.PaymentStatus;
 import com.example.ACM.exception.ResourceNotFoundException;
-import com.example.ACM.payment.Payment;
-import com.example.ACM.repository.PaymentRepo;
 import com.example.ACM.transfer.TransferReq;
 import com.example.ACM.transfer.TransferRes;
 import com.example.ACM.transfer.TransferService;

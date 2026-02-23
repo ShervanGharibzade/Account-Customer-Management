@@ -1,7 +1,6 @@
-package com.example.ACM.repository;
+package com.example.ACM.ledger;
 
 import com.example.ACM.enums.LedgerTransactionStatus;
-import com.example.ACM.ledger.LedgerTransaction;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

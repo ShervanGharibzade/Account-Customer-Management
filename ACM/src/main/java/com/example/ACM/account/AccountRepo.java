@@ -1,6 +1,5 @@
-package com.example.ACM.repository;
+package com.example.ACM.account;
 
-import com.example.ACM.account.Account;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;

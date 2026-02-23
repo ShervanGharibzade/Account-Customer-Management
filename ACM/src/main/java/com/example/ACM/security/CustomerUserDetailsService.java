@@ -1,6 +1,6 @@
 package com.example.ACM.security;
 
-import com.example.ACM.repository.CustomerRepo;
+import com.example.ACM.customer.CustomerRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

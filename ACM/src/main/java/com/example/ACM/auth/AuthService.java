@@ -8,13 +8,12 @@ import com.example.ACM.enums.CustomerRole;
 import com.example.ACM.enums.CustomerStatus;
 import com.example.ACM.exception.ResourceAlreadyExistsException;
 import com.example.ACM.exception.ResourceNotFoundException;
-import com.example.ACM.repository.CustomerRepo;
+import com.example.ACM.customer.CustomerRepo;
 import com.example.ACM.security.JwtUtil;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

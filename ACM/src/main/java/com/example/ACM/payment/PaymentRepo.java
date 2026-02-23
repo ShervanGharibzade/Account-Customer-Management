@@ -1,7 +1,6 @@
-package com.example.ACM.repository;
+package com.example.ACM.payment;
 
 import com.example.ACM.enums.PaymentStatus;
-import com.example.ACM.payment.Payment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

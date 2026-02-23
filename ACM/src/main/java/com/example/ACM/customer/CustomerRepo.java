@@ -1,7 +1,5 @@
-package com.example.ACM.repository;
+package com.example.ACM.customer;
 
-import com.example.ACM.customer.Customer;
-import jakarta.validation.constraints.NotBlank;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

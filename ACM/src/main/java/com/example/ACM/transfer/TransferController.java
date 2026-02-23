@@ -3,7 +3,7 @@ package com.example.ACM.transfer;
 import com.example.ACM.account.AccountService;
 import com.example.ACM.customer.Customer;
 import com.example.ACM.ledger.LedgerTransaction;
-import com.example.ACM.repository.LedgerTransactionRepo;
+import com.example.ACM.ledger.LedgerTransactionRepo;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
