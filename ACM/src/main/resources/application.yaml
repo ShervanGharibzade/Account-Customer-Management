@@ -1,6 +1,6 @@
 security:
   jwt:
-    secret: "CHANGE_THIS_TO_A_LONG_256_BIT_SECRET_KEY_FOR_HS256"
+    secret: "YTM0ZDI3M2I0YmU0ZDYzM2M4YWRhZThmOTU4YmE0MzYyZGM0Y2I1ZTMxZDY5MTkzYjI0OGFjZTk5MDhjYmY4YQ=="
     expiration: 3600000
 
 spring:

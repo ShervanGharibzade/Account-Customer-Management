@@ -103,7 +103,7 @@ public class AccountService {
     @Transactional
     public TransferRes transfer(TransferReq req, Long userId) {
         try {
-            return transferService.doTransfer(req, userId);
+            return transferService.transfer(req, userId);
         } catch (OptimisticLockingFailureException e) {
             throw new IllegalStateException("Transfer failed due to concurrent modification. Please retry.", e);
         }
